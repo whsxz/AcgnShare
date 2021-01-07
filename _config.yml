@@ -104,8 +104,13 @@ theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+#deploy:
+#  type: ''
+
 deploy:
-  type: ''
+  - type: git
+    repo: git@github.com:whsxz/whsxz.github.io.git
+    branch: master
 
 mmedia:
   aplayer:
